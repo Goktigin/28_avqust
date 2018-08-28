@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://images6.alphacoders.com/385/thumb-1920-385981.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    width:100%;
+}
+.container{
+    
+    margin: auto;
+    
+    text-align: center;
+    position: relative;
+}
+.con2{
+  padding-top:310px;
+}
+.heading1{
+    color: white;
+    text-align: center;
+}
+.p1{
+    color:white;
+    text-align:center;
+    font-size: 1.5em;
+    
+}
+.but1{
+    border-radius: 3px;
+    padding:13px;
+    background-color:rgba(255,255,255,0.1);
+    border: 1px solid white;
+    color:white;
+    font-weight: bolder;
+    margin-right: 5px;
+}
+.but2{
+    border-radius: 3px;
+    padding:13px;
+    background-color:rgba(241, 11, 11, 1);
+    border: 1px solid white;
+    color:white;
+    font-weight: bolder;
+}
+.left{
+position: absolute;
+top:335px;
+left:8px;
+font-size: 3.5em;
+color:white;
+}
+.right{
+    position: absolute;
+    top:335px;
+    right:8px;
+    font-size: 3.5em;
+    color:white;
+    }
+.watch{
+    position: absolute;
+    top:0px;
+    right:400px;
+    background-color:red;
+    color:white;
+    border-radius: 0px 0px 30px 30px;
+    font-size: 3.5em;
+    padding: 10px;
+}  
+.warning{
+    position: fixed;
+    bottom:0px;
+    right:550px;
+    background-color:red;
+    color:white;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 2em;
+    padding: 10px;
+}  
